@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* body{
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7) url('bkg.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #fff;
+} */
+
+body{
+    background-color: #ffffff;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:20px 100px;
+    background: flex;
+    background-color: #484242;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    font-size: 2em;
+    color: #ffffff;
+    user-select: none;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after{
+    transform: scalex(1);
+    transform-origin: left;
+}
+
+.navigation .btnLogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .btnLogin-popup:hover{
+    background: #ffffff;
+    color: #000000;
+}
+
+.home{
+    position: relative;
+    height: 200vh;
+    width: 100%;
+    background-image: url(abc.jpg);
+    background-size: cover;
+    background-position: center;
+    /* margin-bottom: 20%; */
+}
+
+/* section .hometext{
+    margin-top: 90.5px;
+} */
+
+.hometext h3{
+    text-align: center;
+    padding-top: 120px;
+    color: #ffffff;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hometext p{
+    color: rgb(246, 212, 212);
+    font-size: 30px;
+    padding-top: 70px;
+    text-align: center;
+    /* padding-left: 450px;
+    max-width: 1100px; */
+}
+
+.guidance{
+    /* margin-top: -12vh; */
+    height: 100vh;
+    background-image: url(abc.jpg);
+    background-size: cover;
+}
+
+/* .contact{
+    height: 100vh;
+    background-image: url(abc.jpg);
+    background-size: cover;
+} */
+
+.about{
+    height: 50vh;
+    /* background-image: url(abcd.jpg); */
+    background-color: #1b0808;
+    background-size: cover;
+}
