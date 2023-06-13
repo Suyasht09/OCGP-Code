@@ -10,3 +10,6 @@ I created this website as my college project for second year.
 This code is developed by me and my project partner.
  I hope you like it.
  Thank you❤️.
+ 
+ 
+ (Imp. To use this website properly you should open the "careerglobe.html" named file firs)
