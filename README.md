@@ -12,4 +12,4 @@ This code is developed by me and my project partner.
  Thank you❤️.
  
  
- (Imp. To use this website properly you should open the "careerglobe.html" named file firs)
+ (****Imp. To use this website properly you should open the "careerglobe.html" named file firs****)
