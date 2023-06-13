@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d4d4d;
+    background:(#eae5df);
+    height: auto;
+}
+
+ul.tree{
+    width: 520px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+ul li{
+    position: relative;
+    list-style: none;
+    padding: 4px 0;
+}
+
+li:before, li:after{
+    content: '';
+    position: absolute;
+    left: -28px;
+    background-color: #323232;
+}
+
+li:before{
+    height: 1px;
+    width: 10px;
+    top: 12px;
+}
+
+li:after{
+    height: 26px;
+    width: 1px;
+    top: -14px;
+}
+
+li.parent:after{
+    height: 100%;
+    top: 12px;
+}
+
+li.parent:last-child:after{
+    content: none;
+}
+
+details{
+    margin: 0 auto;
+    max-height: 18px;
+    transition: max-height 1.5s linear;
+}
+
+details[open]{
+    max-height: 1000px;
+}
+
+summary{
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+summary:before{
+    content: '+';
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    top: 0;
+    left: -22px;
+    text-align: center;
+    line-height: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #269644;
+    border-radius: 10px;
+}
+
+details[open] > summary:before{
+    content: "-";
+    background-color: #8a2727;
+}
+
+details > ul{
+    padding: 15px;
+}
