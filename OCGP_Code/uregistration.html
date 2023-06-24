@@ -1,52 +1,59 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Online Carrier Guidance Portal</title>
-        <link rel="stylesheet" href="ulogstyle.css">
-    </head>
-    <body>
-        <header>
-            <h2  class="logo">CAREER<img src="icons/globeg.png"></h2>
-            <nav class="navigation">
-                <button class="btnLogin-popup" type="button" onclick="location.href='adminlog.html'">Admin Login</button>
-             </nav>
-        </header>
-        <div class="pocket">
-            <div class="form-box register">
-                <h2>Registeration</h2>
-                <form action="backend.php" method="post">
-                    <div class="input-box">
-                        <span class="icon">
-                            <img src="icons/user1.png"></span>
-                        <input type="text" name="username" required>
-                        <label for="username">Username</label>
-                    </div>
-            
-                    <div class="input-box">
-                        <span class="icon">
-                            <img src="icons/email.png"></span>
-                        <input type="email" name="email" required>
-                        <label for="email">Email</label>
-                    </div>
-            
-                    <div class="input-box">
-                        <span class="icon">
-                            <img src="icons/padlock.png"></span>
-                        <input type="password" name="password" required>
-                        <label for="password">Password</label>
-                    </div>
-        
-                    <div class="remember-forget">
-                        <lable><input type="checkbox"> Agree to the terms & conditions </lable>  
-                    </div>
-         
-                    <button type="submit" name="submit" class="btn">Register</button>
-                    <div class="login-register">
-                        <p>Already have an account ? <a href="ulogin.html" class="login-link">Login</a></p>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </body>
+  <head>
+    <title>Online Carrier Guidance Portal</title>
+    <link rel="stylesheet" href="ulogstyle.css" />
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">CAREER<img src="icons/globeg.png" /></h2>
+      <nav class="navigation">
+        <button
+          class="btnLogin-popup"
+          type="button"
+          onclick="location.href='adminlog.html'"
+        >
+          Admin Login
+        </button>
+      </nav>
+    </header>
+    <div class="pocket">
+      <div class="form-box register">
+        <h2>Registeration</h2>
+        <form action="backend.php" method="post">
+          <div class="input-box">
+            <span class="icon"> <img src="icons/user1.png" /></span>
+            <input type="text" name="username" required />
+            <label for="username">Username</label>
+          </div>
+
+          <div class="input-box">
+            <span class="icon"> <img src="icons/email.png" /></span>
+            <input type="email" name="email" required />
+            <label for="email">Email</label>
+          </div>
+
+          <div class="input-box">
+            <span class="icon"> <img src="icons/padlock.png" /></span>
+            <input type="password" name="password" required />
+            <label for="password">Password</label>
+          </div>
+
+          <div class="remember-forget">
+            <lable
+              ><input type="checkbox" /> Agree to the terms & conditions
+            </lable>
+          </div>
+
+          <button type="submit" name="submit" class="btn">Register</button>
+          <div class="login-register">
+            <p>
+              Already have an account ?
+              <a href="ulogin.html" class="login-link">Login</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>

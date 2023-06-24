@@ -1,283 +1,283 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins',sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    width: 100%;
-    background-color: #373c3da7;
-    background-position: center;
-    background-size: cover;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #373c3da7;
+  background-position: center;
+  background-size: cover;
 }
 
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding:10px 100px;
-    background: flex;
-    background-color: #484242;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 99;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 100px;
+  background: flex;
+  background-color: #484242;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
 }
 
-.logo{
-    font-size: 2em;
-    color: #fff;
-    user-select: none;
+.logo {
+  font-size: 2em;
+  color: #fff;
+  user-select: none;
 }
 
-.navigation .btnLogin-popup{
-    width: 130px;
-    height: 50px;
-    background: transparent;
-    border: 2px solid #ffffff;
-    outline: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 1.1em;
-    color: #ffffff;
-    font-weight: 500;
-    margin-left: 40px;
-    transition: .5s;
+.navigation .btnLogin-popup {
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 40px;
+  transition: 0.5s;
 }
 
-.navigation .btnLogin-popup:hover{
-    background: #ffffff;
-    color: #000000;
+.navigation .btnLogin-popup:hover {
+  background: #ffffff;
+  color: #000000;
 }
 
-.aform{
-    position: relative;
-    width: 650px;
-    height: 700px;
-    background-color: #fff;
-    border: 2px solid rgb(0, 225, 234);
-    border-radius: 20px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 20px rgb(0, 255, 234);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 30px;
+.aform {
+  position: relative;
+  width: 650px;
+  height: 700px;
+  background-color: #fff;
+  border: 2px solid rgb(0, 225, 234);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgb(0, 255, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 30px;
 }
 
-.input_field{
-    position: relative;
-    top: 20px;
+.input_field {
+  position: relative;
+  top: 20px;
 }
 
-.alogform{
-    position: relative;
-    width: 350px;
-    height: 400px;
-    background-color: #fff;
-    border: 2px solid rgb(0, 225, 234);
-    border-radius: 20px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 20px rgb(0, 255, 234);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 30px;
+.alogform {
+  position: relative;
+  width: 350px;
+  height: 400px;
+  background-color: #fff;
+  border: 2px solid rgb(0, 225, 234);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 20px rgb(0, 255, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 30px;
 }
 
-.linput_field{
-    position: relative;
-    top: 45px;
+.linput_field {
+  position: relative;
+  top: 45px;
 }
 
 .detl {
-    position: relative;
-    bottom: -30px;
-    right: 150px;
-    width: 100%;
-    height: 50px;
-    border-bottom: 2px solid #000000;
-    margin: 30px 0;
+  position: relative;
+  bottom: -30px;
+  right: 150px;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #000000;
+  margin: 30px 0;
 }
 
 .detl label {
-    position: absolute;
-    top: 10px;
-    left: 5px;
-    transform: translateY(-50%);
-    font-size: 1em;
-    color: #000000;
-    font-weight: 700;
-    pointer-events: none;
-    transition: .5s;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: #000000;
+  font-weight: 700;
+  pointer-events: none;
+  transition: 0.5s;
 }
 
-.detl input:focus~label,
-.detl input:focus~label{
-    top: -5px;
+.detl input:focus ~ label,
+.detl input:focus ~ label {
+  top: -5px;
 }
 
-.detl input{
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 1em;
-    color: #000000;
-    font-weight: 500;
-    padding: 0 35px 0 5px;
+.detl input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #000000;
+  font-weight: 500;
+  padding: 0 35px 0 5px;
 }
 
 .detail {
-    position: relative;
-    top: -50px;
-    left: 150px;
-    width: 100%;
-    height: 50px;
-    border-bottom: 2px solid #000000;
-    margin: 30px 0;
+  position: relative;
+  top: -50px;
+  left: 150px;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #000000;
+  margin: 30px 0;
 }
 
-.detail label{
-    position: absolute;
-    top: 10px;
-    left: 5px;
-    transform: translateY(-50%);
-    font-size: 1em;
-    color: #000000;
-    font-weight: 700;
-    pointer-events: none;
-    transition: .5s;
+.detail label {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: #000000;
+  font-weight: 700;
+  pointer-events: none;
+  transition: 0.5s;
 }
 
-.detail input:focus~label,
-.detail input:focus~label{
-    top: -5px;
+.detail input:focus ~ label,
+.detail input:focus ~ label {
+  top: -5px;
 }
 
-.detail input{
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 1em;
-    color: #000000;
-    font-weight: 500;
-    padding: 0 35px 0 5px;
+.detail input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #000000;
+  font-weight: 500;
+  padding: 0 35px 0 5px;
 }
 
 .det {
-    position: relative;
-    top: -60px;
-    width: 100%;
-    height: 50px;
-    border-bottom: 2px solid #000000;
-    margin: 30px 0;
+  position: relative;
+  top: -60px;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #000000;
+  margin: 30px 0;
 }
 
-.det label{
-    position: absolute;
-    top: 10px;
-    left: 5px;
-    transform: translateY(-50%);
-    font-size: 1em;
-    color: #000000;
-    font-weight: 700;
-    pointer-events: none;
-    transition: .5s;
+.det label {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: #000000;
+  font-weight: 700;
+  pointer-events: none;
+  transition: 0.5s;
 }
 
-.det input:focus~label,
-.det input:focus~label{
-    top: -5px;
+.det input:focus ~ label,
+.det input:focus ~ label {
+  top: -5px;
 }
 
-.det input{
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 1em;
-    color: #000000;
-    font-weight: 500;
-    padding: 0 35px 0 5px;
+.det input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #000000;
+  font-weight: 500;
+  padding: 0 35px 0 5px;
 }
 
-.btn{
-    position: relative;
-    top: -50px;
-    width: 100%;
-    height: 45px;
-    background: #484242;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 1em;
-    color: #ffffff;
-    font-weight: 500;
+.btn {
+  position: relative;
+  top: -50px;
+  width: 100%;
+  height: 45px;
+  background: #484242;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #ffffff;
+  font-weight: 500;
 }
 
-.input_field .icon{
-    position: absolute;
-    right: 8px;
-    font-size: 1.2em;
-    color: #000000;
-    line-height: 57px;
+.input_field .icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  color: #000000;
+  line-height: 57px;
 }
 
-.linput_field .icon{
-    position: absolute;
-    right: 8px;
-    font-size: 1.2em;
-    color: #000000;
-    line-height: 57px;
+.linput_field .icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2em;
+  color: #000000;
+  line-height: 57px;
 }
 
 .login-register {
-    position: relative;
-    top: -70px;
-    font-size: 1em;
-    color: #000000;
-    text-align: center;
-    font-weight: 500;
-    margin: 25px 0 10px;
+  position: relative;
+  top: -70px;
+  font-size: 1em;
+  color: #000000;
+  text-align: center;
+  font-weight: 500;
+  margin: 25px 0 10px;
 }
 
 .login-register p a {
-    color: #004e8a;
-    text-decoration:none;
-    font-weight: 600;
+  color: #004e8a;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .login-register p a:hover {
-    text-transform: none ;
+  text-transform: none;
 }
 
-.login-register a::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    width: 100%;
-    height: 3px;
-    background: #000000;
-    border-radius: 5px;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .5s;
+.login-register a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #000000;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s;
 }
 
-.login-register a:hover::after{
-    transform: scalex(1);
-    transform-origin: left;
+.login-register a:hover::after {
+  transform: scalex(1);
+  transform-origin: left;
 }
